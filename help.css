@@ -1,0 +1,152 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(12.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #FFBB00;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: blanchedalmond;
+    border: 1px solid #FFBB00;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #FFBB00;
+    border: 2px solid #FFBB00;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+  h1 {
+    text-align: center;
+    color: #FFBB00; /* Pop yellow color */
+  }
+  .faq-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .question {
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+    color: #6AFF91; /* Pop green color */
+  }
+  .answer {
+    display: none;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #FFC06B; /* Pop orange color */
+    border-radius: 5px;
+  }
+  .answer.active {
+    display: block;
+    background-color: #6ACFFF; /* Pop blue color */
+    color: #333; /* Dark text color for active answers */
+  }
+  
+  .hello {
+    font-size: larger;
+    position: absolute;
+    top: 118px;
+    left: 143px;
+    padding: 18px;
+    background-color: #00000059;
+    border-bottom-left-radius: 39px;
+    border-top-left-radius: 39px;
+    border-bottom-right-radius: 39px;
+    border-top-right-radius: 39px;
+}
